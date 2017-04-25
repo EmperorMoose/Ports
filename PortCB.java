@@ -76,7 +76,7 @@ public class PortCB extends IflPortCB
         } 
         catch (NullPointerException e) 
         {
-            System.out.println("Exeption caught, PortCB line 74")
+            System.out.println("Exeption caught, PortCB line 74" + e)
         }
 
         int portNum = thisTask.getPortCount();
