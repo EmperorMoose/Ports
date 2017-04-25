@@ -101,7 +101,7 @@ public class PortCB extends IflPortCB
         newPort.outBuff = 0;
 
         //return the new port
-        return newPort
+        return newPort;
 
     }
 
@@ -196,7 +196,7 @@ public class PortCB extends IflPortCB
             if(this.getStatus() != PortLive)
             {
                 newEvent.notifyThreads();
-                return FAILURE
+                return FAILURE;
             }
         }
 
